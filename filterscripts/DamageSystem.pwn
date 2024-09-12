@@ -90,6 +90,8 @@ CMD:damages(playerid, const args[]) {
 		return SendClientMessage(playerid, COLOR_TOMATO, "USAGE: {FFFFFF}/damages [playerid or username]");
 
 	new Float:x, Float:y, Float:z;
+	
+	// false on player not connected.
 	if(!GetPlayerPos(id, x, y, z)) 
 		return SendClientMessage(playerid, COLOR_TOMATO, "Playerid is not an active player.");
 
@@ -100,6 +102,7 @@ CMD:damages(playerid, const args[]) {
 	return 1;
 }
 
+// It is always called first in filterscripts so returning 1 there blocks other filterscripts from seeing it.
 public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[]) {
 	if(dialogid == DIALOG_DAMAGE) return 1;
 	return 0;
