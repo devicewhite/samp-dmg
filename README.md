@@ -7,7 +7,7 @@
 
 # samp-dmg
 
-[![sampctl](https://shields.southcla.ws/badge/sampctl-samp--dmg-2f2f2f.svg?style=for-the-badge)](https://github.com/infin1tyy/samp-dmg)
+[![sampctl](https://img.shields.io/badge/sampctl-samp--dmg-2f2f2f.svg?style=for-the-badge)](https://github.com/infin1tyy/samp-dmg)
 
 <!--
 Short description of your library, why it's useful, some examples, pictures or
