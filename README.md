@@ -1,3 +1,8 @@
+> ![Warning]
+> This code is completely insecure
+> Can easily indicate runtime errors
+> It is being corrected little by little
+
 # samp-dmg
 
 [![sampctl](https://shields.southcla.ws/badge/sampctl-samp--dmg-2f2f2f.svg?style=for-the-badge)](https://github.com/infin1tyy/samp-dmg)
